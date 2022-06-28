@@ -1,0 +1,103 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    background-color:rgb(28, 24, 53);
+}
+
+
+
+#topbar{
+position:fixed;
+top:0;
+width:100%;
+
+}
+
+
+
+
+header{
+    height:45px;
+    width:100%;
+    background-color:RoyalBlue;
+}
+
+
+
+main{
+    width:100%;
+    margin-top:210px;
+}
+
+
+.logo-header-left{
+    background-color:white;
+    width:45px;
+    height:100%;
+    background-image: url("dexgraphix-logo.png");
+    background-repeat:no-repeat;
+}
+
+
+#header-banner{
+   
+    
+    background-color:rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:45px;
+}
+
+
+
+#header-banner h1{
+    color:rgb(28, 24, 53);
+    text-align:center;
+   font-size:9px;
+   font-family: 'Titillium Web', sans-serif;
+      margin-top:0;
+   text-transform: uppercase;
+  
+ 
+  
+ }
+
+
+ .images{
+    display:flex;
+    
+    justify-content:center;
+    gap: 10px;
+    flex-direction: row;
+    flex-wrap:wrap;
+    align-content:space-between;
+ }
+
+ .image{
+    width:500px;
+    
+   
+ }
