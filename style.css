@@ -1,113 +1,394 @@
+@charset "utf-8";
+/* CSS Document */
 
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    }
+html
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-body{
-    background-color:rgb(28, 24, 53);
+body {
+    
+    font-size: 16px;
+    height: 100vh;
+	background-color: rgb(86, 24, 217);
+	
+	box-sizing: border-box;
+    padding: 10em;
+    margin: 10em;
 }
 
 
 
-#topbar{
-position:fixed;
-top:0;
-width:100%;
+@font-face {
+  font-family: 'Climate-Crisis';
+  src: url('../fonts/ClimateCrisis-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Regular.ttf');
+}
+
+
+#main
+{
+	
+  
+}
+
+
+#logo
+{
+	
+}
+
+#logo-container
+{
+	width: 10em;
+	margin: auto;
+	text-align: center;
+	margin-top: 4em;
+	margin-bottom: 4em;
+	
+}
+
+hr
+{
+	margin: auto;
+	
+	padding: 0;
+	border-top: 1px solid white;
+	width: 90%;
+	
+	
+}
+
+#title-container
+{
+	width: 90%;
+	margin: auto;
+	
+}
+
+h1
+{
+	font-family: 'Climate-Crisis', sans-serif;
+	font-size: 4em;
+	color: white;
+	text-align: center;
+	
+	margin: 0;
+	
+	
+}
+
+
+
+
+#menu-container
+{
+	width: 60%;
+	margin: auto;
+	margin-top: 10em;
+	display: flex;
+	gap: 1em;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#menu-top-left
+{
+	min-width: 19em;
+	height: 19em;
+	border: 2px solid white;
+	border-radius: 3em;
+	color: white;
+	font-family: 'Climate-Crisis', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	
+	
+}
+
+#menu-top-left img
+{
+	
+}
+
+.portfolio-image
+{
+	min-width: 19em;
+	height: 19em;
+	border: 2px solid white;
+	background-color: white;
+	
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.portfolio-image:hover
+{
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 45%);
+	
+	
+}
+
+
+.flyers
+{
+	min-width: 18em;
+	height: 18em;
+	border: 2px solid white;
+	border-radius: 3em;
+	color: white;
+	font-family: 'Climate-Crisis', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	text-align: center;
+}
+
+
+.flyers:hover
+{
+	background-color: white;
+	color: rgb(86, 24, 217);
+	box-shadow: 0 10px 45px rgba(0, 0, 0, 45%);
+}
+
+#sq-flyers-container
+{
+	width: 60%;
+	margin: auto;
+	margin-top: 10em;
+	display: flex;
+	gap: 1em;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.square-flyers
+{
+	
+	border: 2px solid white;
+	
+	color: white;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	text-align: center;
+}
+
+.square-flyers img
+{
+	max-width: 100%;
+}
+
+#menu-top-right
+{
+	min-width: 19em;
+	height: 19em;
+	border: 2px solid white;
+	border-radius: 3em;
+	color: white;
+	font-family: 'Climate-Crisis', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+}
+
+#menu-bottom-left
+{
+	min-width: 19em;
+	height: 19em;
+	border: 2px solid white;
+	border-radius: 3em;
+	color: white;
+	font-family: 'Climate-Crisis', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+}
+
+#menu-bottom-right
+{
+	min-width: 19em;
+	height: 19em;
+	border: 2px solid white;
+	border-radius: 3em;
+	color: white;
+	font-family: 'Climate-Crisis', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+}
+
+
+.square-font
+{
+	font-size: 2em;
+	
+}
+
+
+
+#menu-top-left:hover
+{
+	background-color: white;
+	color: rgb(86, 24, 217);
+	
+	box-shadow: 0 10px 45px rgba(0, 0, 0, 45%);
+	
+	
+}
+
+
+
+#menu-top-right:hover
+{
+	background-color: white;
+	color: rgb(86, 24, 217);
+	box-shadow: 0 10px 45px rgba(0, 0, 0, 45%);
+}
+
+#menu-bottom-left:hover
+{
+	background-color: white;
+	color: rgb(86, 24, 217);
+	box-shadow: 0 10px 45px rgba(0, 0, 0, 45%);
+}
+
+#menu-bottom-right:hover
+{
+	background-color: white;
+	color: rgb(86, 24, 217);
+	box-shadow: 0 10px 45px rgba(0, 0, 0, 45%);
+}
+
+
+.bottom-line
+{
+	margin-top: 10em;
+	margin-bottom: 2em;
+}
+
+.footer-text
+{
+	color: white;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+
+@media only screen and (max-width: 2200px)
+{
+	#menu-container
+{
+	width: 40%;
+	gap: 1em;
+	
+	justify-content: center;
+}
+
+
+}
+
+@media only screen and (max-width: 1620px)
+{
+	#menu-container
+{
+	width: 60%;
+	gap: 1em;
+	
+	justify-content: center;
+}
+
+
+}
+
+@media only screen and (max-width: 1100px)
+{
+	#menu-container
+{
+	width: 70%;
+	gap: 1em;
+	
+	justify-content: center;
+}
+
+#sq-flyers-container
+{
+	width: 90%;
+	margin: auto;
+	margin-top: 7em;
+	display: flex;
+	gap: 1em;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
+}
+
+
+@media only screen and (max-width: 690px)
+{
+	h1
+{
+	
+	font-size: 2.3em;
+	color: white;
+	text-align: center;
+	
+	margin: 0;
+	
+}
+
+.square-flyers
+{
+	
+	
+	
+	color: white;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	text-align: center;
+}
+
+#sq-flyers-container
+{
+	width: 90%;
+	margin: auto;
+	margin-top: 7em;
+	display: flex;
+	gap: 1em;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
+
 
 }
 
 
 
 
-header{
-    height:45px;
-    width:100%;
-    background-color:RoyalBlue;
-}
 
-
-
-main{
-    width:100%;
-    margin-top:210px;
-}
-
-
-.logo-header-left{
-    background-color:white;
-    width:45px;
-    height:100%;
-    background-image: url("https://i.ibb.co/JsRzLC8/dexgraphix-logo.png");
-    background-repeat:no-repeat;
-}
-
-
-#header-banner{
-   
-    
-    background-color:rgb(255, 255, 255);
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom:45px;
-}
-
-
-
-#header-banner h1{
-    color:rgb(28, 24, 53);
-    text-align:center;
-   font-size:9px;
-   font-family: 'Titillium Web', sans-serif;
-      margin-top:0;
-   text-transform: uppercase;
-  
- 
-  
- }
-
-
- .images{
-    display:flex;
-    
-    justify-content:center;
-    gap: 10px;
-    flex-direction: row;
-    flex-wrap:wrap;
-    align-content:space-between;
- }
-
- .image{
-    width:500px;
-    
-   
- }
-
- .logos{
-    display:flex;
-    
-    justify-content:center;
-    gap: 10px;
-    flex-direction: row;
-    flex-wrap:wrap;
-    align-content:space-between;
- }
