@@ -23,7 +23,7 @@ body {
 
 @font-face {
   font-family: 'Climate-Crisis';
-  src: url('../fonts/ClimateCrisis-Regular.ttf');
+  src: url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
 }
 
 @font-face {
